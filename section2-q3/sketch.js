@@ -32,5 +32,7 @@ function drawArcs(c1, c2, r) {
     let stop = TWO_PI / 20 * (i + 1);
     fill(i % 2 == 0 ? c1 : c2);
     arc(cx, cy, r, r, start, stop, PIE);
+    fill(i % 2 == )
+    arc(cx, cy, r-10, r-10, )
   }
 }
