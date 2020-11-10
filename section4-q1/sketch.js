@@ -12,5 +12,9 @@ function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
   // BLANK[1]
+let size = 100;
+if(count < 50){
+  size = 200;
+}
   ellipse(width / 2, height / 2, size);
 }
